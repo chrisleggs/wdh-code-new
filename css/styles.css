@@ -15,7 +15,7 @@ body { font-family: 'FS Emeric Web', 'FS Emeric', Georgia, serif; background-col
 /* ── Primary nav ── */
 .site-nav-bar { background-color: #2a2a2a; }
 .site-nav-inner { max-width: 1280px; margin: 0 auto; padding: 0 24px; height: 58px; display: flex; align-items: center; }
-.site-nav-list { list-style: none; display: flex; align-items: center; height: 100%; gap: 32px; }
+.site-nav-list { list-style: none; display: flex; align-items: center; height: 100%; gap: 176px; }
 .site-nav-list a { color: #f8f9fa; text-decoration: none; font-size: 21px; font-family: 'FS Emeric Web','FS Emeric',Georgia,serif; line-height: 58px; border-bottom: 3px solid transparent; display: inline-block; transition: opacity 0.15s; }
 .site-nav-list a:hover { opacity: 0.8; }
 .site-nav-list a[aria-current="page"] { color: #b9dc0c; border-bottom-color: #b9dc0c; }
