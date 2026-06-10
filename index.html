@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Data Hub – Met Office</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header" aria-label="Met Office Weather Data Hub">
+    <a href="/" aria-label="Met Office – go to homepage">
+      <svg width="148" height="20" viewBox="0 0 147.827 19.9997" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <g clip-path="url(#logo-clip)">
+          <path d="M142.629 7.89212C143.086 7.88841 143.528 8.05831 143.865 8.36755C144.34 8.84298 144.499 9.60366 144.499 10.713V10.9983H140.061C140.061 9.88892 140.347 9.00145 140.822 8.52603C141.297 8.0506 141.773 7.89212 142.597 7.89212M146.02 6.87787C145.574 6.40571 145.032 6.03423 144.431 5.78826C143.83 5.5423 143.183 5.42751 142.534 5.45159C138.762 5.45159 136.099 8.27246 136.099 12.3612C136.099 16.4498 138.92 19.9046 142.692 19.9046C145.45 19.9046 147.763 18.1931 147.763 18.1931L146.717 16.0061C145.763 16.774 144.583 17.2081 143.358 17.2422C142.407 17.2422 141.646 16.7668 141.012 16.2914C140.378 15.8159 140.061 14.5798 140.061 13.3437H147.732C147.795 13.2803 148.27 9.09654 146.02 6.84618M64.3731 7.86042C64.8304 7.85672 65.2722 8.02662 65.6092 8.33585C66.0846 8.81128 66.2431 9.57197 66.2431 10.6813V10.9666H61.8058C61.8058 9.85723 62.091 8.96976 62.5665 8.49433C63.0419 8.0189 63.5807 7.86042 64.3414 7.86042M67.7645 6.84618C67.3183 6.37401 66.7765 6.00253 66.1752 5.75657C65.574 5.5106 64.9272 5.39582 64.278 5.41989C60.5063 5.41989 57.8439 8.24077 57.8439 12.3295C57.8439 16.4181 60.6647 19.8729 64.4365 19.8729C67.194 19.8729 69.4443 18.1614 69.4443 18.1614L68.3984 15.9744C67.4435 16.7423 66.2635 17.1764 65.0387 17.2105C64.0878 17.2105 63.3271 16.7351 62.6932 16.2597C62.0593 15.7842 61.7424 14.5481 61.7424 13.312H69.4126C69.5394 13.2486 70.0148 9.06484 67.7645 6.81448M92.772 3.04275C96.2585 3.04275 97.3679 6.6877 97.3679 9.63536C97.3679 11.3469 97.0192 16.7034 92.772 16.7034C88.5249 16.7034 88.0811 11.4103 88.0811 9.69875C88.0811 6.6877 89.3806 3.10614 92.8037 3.10614M92.8037 0.0950858C87.9227 0.0950858 84.1509 4.21547 84.1509 9.63536C84.1509 15.5941 87.7959 19.9046 92.8037 19.9046C97.8116 19.9046 101.393 15.6575 101.393 9.66705C101.457 4.24716 97.6848 0.126781 92.772 0.126781M132.645 16.9253C130.458 16.9253 129 15.0869 129 12.3928C129 9.69875 130.901 8.14568 132.645 8.14568C133.46 8.17725 134.26 8.38256 134.99 8.74789L134.229 5.61006C133.611 5.43105 132.971 5.33512 132.328 5.3248C127.795 5.3248 125.26 8.96976 125.26 12.5196C125.26 14.9919 126.781 19.7145 132.169 19.7145C133.478 19.6612 134.743 19.2321 135.814 18.4783L135.054 16.1329C135.054 16.2597 134.103 16.957 132.645 16.957M77.2097 17.4958C76.2588 17.4958 75.7834 16.3865 75.7834 14.5481V8.17738H78.9212L78.2873 5.86362H75.8151V2.72579H72.1701V5.86362H70.1733L70.6487 8.17738H72.1701V15.3722C72.1701 18.3199 73.4062 19.968 76.132 19.968C77.3571 19.96 78.5589 19.6322 79.6185 19.0172L78.9846 16.8302C78.9846 16.7668 78.2239 17.4324 77.2731 17.4324M46.1483 13.312C46.1483 13.0268 42.3766 0 42.3766 0H37.6223L35.7206 19.6194H39.3655L40.4749 5.92701H40.6016L44.4368 19.6194H47.9232L51.695 5.92701H51.8851L52.9311 19.6194H56.576L54.8645 0H49.9834C49.92 0 46.2751 13.0268 46.0849 13.312M112.55 5.76854H107.827V4.6592C107.827 3.13783 108.937 2.75749 109.254 2.75749C109.513 2.69956 109.782 2.69498 110.044 2.74401C110.305 2.79305 110.554 2.89468 110.775 3.04275L110.141 0.380343C109.643 0.256541 109.133 0.192697 108.62 0.190172C106.623 0.190172 104.373 1.77493 104.373 5.07124V5.70515H102.344L102.819 8.0189H104.341V19.3341H107.827V8.0506H112.36V19.3658H116.005V8.0506H119.776V19.3658H123.421V5.73684H116.1V4.62751C116.1 3.10614 117.146 2.72579 117.526 2.72579C118.071 2.61587 118.638 2.71787 119.111 3.01105L118.477 0.348648C117.958 0.221615 117.426 0.157761 116.892 0.158476C114.895 0.158476 112.645 1.74324 112.645 5.03955V5.67345H112.582L112.55 5.76854Z" fill="white"/>
+          <path d="M6.0538 6.7194C4.05699 7.19483 1.9968 6.52922 -0.0316953 5.89532V4.6592C1.00724 4.91362 2.08956 4.93527 3.13783 4.72259C7.385 3.77174 10.6813 -1.9968 16.9253 0.760686C23.1692 3.51817 29.54 0.982553 30.3641 0.697296V3.51817C27.7017 4.12038 23.5179 4.46903 19.6828 2.82088C13.5656 1.52986e-08 10.2059 5.83193 5.9904 6.7194M11.3469 10.4277C15.5307 9.47688 18.8904 3.70835 25.071 6.46583C26.7537 7.16155 28.5449 7.55841 30.3641 7.63856V5.51498C27.9552 5.73684 25.0076 5.64176 22.2818 4.40564C16.0378 1.67985 12.7415 7.41669 8.55772 8.39925C5.67345 9.03315 2.94766 7.51178 -0.0633905 6.6877V8.27246C4.18377 8.46264 7.60686 11.2201 11.3152 10.396M15.6892 14.1044C19.8729 13.1535 23.2326 7.385 29.4766 10.1108C29.7403 10.2515 30.0161 10.3682 30.3007 10.4594V9.09654C29.0183 8.93984 27.7676 8.58708 26.5923 8.0506C20.4118 5.3248 17.0521 11.125 12.8683 12.0442C8.6845 12.9634 5.03955 9.50858 0.0633905 10.0474H-0.126781V12.9951C0.809233 12.4941 1.83029 12.1716 2.88427 12.0442C7.82873 11.442 11.6005 14.9919 15.6892 14.1044ZM17.3373 15.4039C13.2169 16.3548 9.50858 12.8049 4.46903 13.3437C2.88427 13.5339 1.3312 14.2946 -0.126781 15.2454V19.6194C1.04594 18.2565 3.58156 15.9744 7.25822 15.6575C12.2661 15.2454 15.9744 18.6685 20.1265 17.7177C23.3594 17.0204 26.2437 13.2486 30.3324 12.9951V11.0933C24.6272 9.15993 21.2992 14.5164 17.369 15.4039" fill="#B9D532"/>
+        </g>
+        <defs><clipPath id="logo-clip"><rect width="147.827" height="19.9997" fill="white"/></clipPath></defs>
+      </svg>
+    </a>
+    <nav aria-label="Account navigation">
+      <a href="#" class="btn-login">Login / Register</a>
+    </nav>
+  </header>
+
+  <!-- Primary nav -->
+  <div class="site-nav-bar">
+    <nav aria-label="Primary navigation">
+      <div class="site-nav-inner">
+        <ul class="site-nav-list" role="list">
+          <li><a href="#" aria-current="page">Home</a></li>
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Parameters</a></li>
+          <li><a href="#">Pricing &amp; Plans</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Main content -->
+  <main id="main-content" tabindex="-1">
+    <div class="content-wrap">
+      <div class="page-card">
+
+        <section aria-labelledby="welcome-heading">
+          <h1 id="welcome-heading" class="welcome-heading">Welcome to Weather Data Hub</h1>
+          <p class="welcome-body">Find the right data for you from our high-quality weather API products.</p>
+          <p class="welcome-body">Choose from a selection of atmospheric and site-specific data models, weather observations and map images. You can use them to create applications, conduct research or simply stay informed about the weather conditions in your or any location worldwide.</p>
+          <hr class="section-divider" />
+        </section>
+
+        <section aria-labelledby="catalogue-heading">
+          <h2 id="catalogue-heading" class="catalogue-heading">Browse our API products</h2>
+          <p class="results-count">9 results</p>
+
+          <!-- Atmospheric forecasts -->
+          <div class="product-group">
+            <h3 class="group-heading">Atmospheric forecasts</h3>
+            <p class="group-intro">Predictions of future weather conditions based on scientific measurements of the atmosphere and computer models that show how it is expected to change.</p>
+
+            <article class="product-card" aria-label="Global Deterministic 10km Forecast">
+              <div class="card-thumbnail">
+                <img src="images/1-Global-Determinstic-10km.png" alt="Global Deterministic 10km Forecast preview" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Global Deterministic 10km Forecast</h4>
+                <p class="card-overview">A numerical weather prediction forecast for the whole globe, with a resolution of approximately 0.09 degrees i.e. 10km (2,560 x 1,920 grid points).</p>
+                <dl class="card-attributes">
+                  <div class="attr-row"><dt class="attr-label">Forecast length:</dt><dd class="attr-value">7 days (168 hours)</dd></div>
+                  <div class="attr-row"><dt class="attr-label">Update frequency:</dt><dd class="attr-value">4 times daily</dd></div>
+                </dl>
+                <div class="card-cta"><a href="#" class="btn-find-more">Find out more</a></div>
+              </div>
+            </article>
+
+            <article class="product-card" aria-label="UK Deterministic 2km Forecast – Standard">
+              <div class="card-thumbnail">
+                <img src="images/uk-det-2km-standard.png" alt="UK Deterministic 2km Forecast – Standard preview" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">UK Deterministic 2km Forecast &#8211; Standard</h4>
+                <p class="card-overview">A high-resolution gridded weather forecast for the UK, with a resolution of 0.018 degrees, projected on to a 2km horizontal grid.</p>
+                <dl class="card-attributes">
+                  <div class="attr-row"><dt class="attr-label">Forecast length:</dt><dd class="attr-value">5 days (120 hours)</dd></div>
+                  <div class="attr-row"><dt class="attr-label">Update frequency:</dt><dd class="attr-value">Every hour</dd></div>
+                </dl>
+                <div class="card-cta"><a href="#" class="btn-find-more">Find out more</a></div>
+              </div>
+            </article>
+
+            <article class="product-card" aria-label="UK Deterministic 2km Forecast – Latitude-Longitude">
+              <div class="card-thumbnail">
+                <img src="images/uk-det-2km-latlon.png" alt="UK Deterministic 2km Forecast – Latitude-Longitude preview" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">UK Deterministic 2km Forecast &#8211; Latitude-Longitude</h4>
+                <p class="card-overview">A high-resolution gridded weather forecast for the UK, with a resolution of 0.018 degrees, projected on to a 2km horizontal grid.</p>
+                <dl class="card-attributes">
+                  <div class="attr-row"><dt class="attr-label">Forecast length:</dt><dd class="attr-value">5 days (120 hours)</dd></div>
+                  <div class="attr-row"><dt class="attr-label">Update frequency:</dt><dd class="attr-value">Every hour</dd></div>
+                </dl>
+                <div class="card-cta"><a href="#" class="btn-find-more">Find out more</a></div>
+              </div>
+            </article>
+
+            <article class="product-card" aria-label="Global Ensemble 20km Forecast (MOGREPS-G)">
+              <div class="card-thumbnail">
+                <img src="images/mogreps-g.png" alt="Global Ensemble 20km Forecast (MOGREPS-G) preview" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Global Ensemble 20km Forecast (MOGREPS-G)</h4>
+                <p class="card-overview">A numerical weather prediction model that produces forecasts for the whole globe up to a week ahead. The projection used is the Equirectangular Latitude-Longitude and the grid resolution is 20km.</p>
+                <dl class="card-attributes">
+                  <div class="attr-row"><dt class="attr-label">Forecast length:</dt><dd class="attr-value">198 hours</dd></div>
+                  <div class="attr-row"><dt class="attr-label">Update frequency:</dt><dd class="attr-value">4 times daily</dd></div>
+                </dl>
+                <div class="card-cta"><a href="#" class="btn-find-more">Find out more</a></div>
+              </div>
+            </article>
+
+            <article class="product-card" aria-label="UK Ensemble 2km Forecast (MOGREPS-UK)">
+              <div class="card-thumbnail">
+                <img src="images/mogreps-uk.png" alt="UK Ensemble 2km Forecast (MOGREPS-UK) preview" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">UK Ensemble 2km Forecast (MOGREPS-UK)</h4>
+                <p class="card-overview">A numerical weather prediction model that produces forecasts for the UK for the next 5 days. Parameters including temperature, pressure, wind, humidity, etc. are forecast at grid points separated by about 2.2 km, and the model has multiple vertical levels.</p>
+                <dl class="card-attributes">
+                  <div class="attr-row"><dt class="attr-label">Forecast length:</dt><dd class="attr-value">126 hours</dd></div>
+                  <div class="attr-row"><dt class="attr-label">Update frequency:</dt><dd class="attr-value">Every hour</dd></div>
+                </dl>
+                <div class="card-cta"><a href="#" class="btn-find-more">Find out more</a></div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Site-specific forecasts -->
+          <div class="product-group">
+            <h3 class="group-heading">Site-specific forecasts</h3>
+            <p class="group-intro">Weather predictions tailored for a single location, giving detailed conditions exactly where they matter rather than for a broad region.</p>
+
+            <article class="product-card" aria-label="Global Spot Forecast">
+              <div class="card-thumbnail">
+                <img src="images/global-spot.png" alt="Global Spot Forecast preview" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Global Spot Forecast</h4>
+                <p class="card-overview">Gives a &#8220;most likely&#8221; forecast for over 20,000 specific locations worldwide by combining several weather models and recent observations. It uses gridded atmospheric model data (including 10 km global and 2 km UK model inputs) to produce consistent site-level forecasts.</p>
+                <dl class="card-attributes">
+                  <div class="attr-row"><dt class="attr-label">Forecast length:</dt><dd class="attr-value">7 days (168 hours)</dd></div>
+                  <div class="attr-row"><dt class="attr-label">Update frequency:</dt><dd class="attr-value">Hourly</dd></div>
+                </dl>
+                <div class="card-cta"><a href="#" class="btn-find-more">Find out more</a></div>
+              </div>
+            </article>
+
+            <article class="product-card" aria-label="Site-Specific Blended Probabilistic Forecast">
+              <div class="card-thumbnail">
+                <img src="images/blended-prob.png" alt="Site-Specific Blended Probabilistic Forecast preview" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">Site-Specific Blended Probabilistic Forecast</h4>
+                <p class="card-overview">Blends multiple weather models to show the probability of different weather outcomes at a single location, along with a &#8220;most likely&#8221; forecast. It provides probability and percentile forecasts out to seven days, helping users make risk-based decisions.</p>
+                <dl class="card-attributes">
+                  <div class="attr-row"><dt class="attr-label">Forecast length:</dt><dd class="attr-value">7 days (168 hours)</dd></div>
+                  <div class="attr-row"><dt class="attr-label">Update frequency:</dt><dd class="attr-value">Hourly</dd></div>
+                </dl>
+                <div class="card-cta"><a href="#" class="btn-find-more">Find out more</a></div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Observations -->
+          <div class="product-group">
+            <h3 class="group-heading">Observations</h3>
+            <p class="group-intro">Regular measurements of weather taken from instruments at ground-based locations, recording things like temperature, rainfall, wind, and sunshine.</p>
+
+            <article class="product-card" aria-label="UK Land Observations">
+              <div class="card-thumbnail">
+                <img src="images/land-obs.png" alt="UK Land Observations preview" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">UK Land Observations</h4>
+                <p class="card-overview">Provides hourly real-world weather measurements from around 150 UK stations spaced roughly 50 km apart. Sensors follow strict international standards, and data is automatically recorded and transmitted for reliable surface-level conditions.</p>
+                <dl class="card-attributes">
+                  <div class="attr-row"><dt class="attr-label">Forecast length:</dt><dd class="attr-value">Latest observations</dd></div>
+                  <div class="attr-row"><dt class="attr-label">Update frequency:</dt><dd class="attr-value">Every hour</dd></div>
+                </dl>
+                <div class="card-cta"><a href="#" class="btn-find-more">Find out more</a></div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Map images -->
+          <div class="product-group">
+            <h3 class="group-heading">Map images</h3>
+            <p class="group-intro">Weather maps generated from model data that visually show conditions (like temperature or rainfall) across an area at a given time.</p>
+
+            <article class="product-card" aria-label="UK &amp; Europe Map Images">
+              <div class="card-thumbnail">
+                <img src="images/map-images.png" alt="UK &amp; Europe Map Images preview" />
+              </div>
+              <div class="card-content">
+                <h4 class="card-title">UK &amp; Europe Map Images</h4>
+                <p class="card-overview">A visualisation of 4 parameters from our Global Deterministic 10km Forecast. These are styled to match the maps on our website, and are available at a fixed resolution. The visualisations can be overlaid on the land cover if preferred.</p>
+                <dl class="card-attributes">
+                  <div class="attr-row"><dt class="attr-label">Forecast length:</dt><dd class="attr-value">7 days (168 hours)</dd></div>
+                  <div class="attr-row"><dt class="attr-label">Update frequency:</dt><dd class="attr-value">2 times daily</dd></div>
+                </dl>
+                <div class="card-cta"><a href="#" class="btn-find-more">Find out more</a></div>
+              </div>
+            </article>
+          </div>
+
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer aria-label="Site footer">
+    <div class="site-footer-upper">
+      <div class="footer-upper-inner">
+        <div class="footer-logo">
+          <a href="/" aria-label="Met Office – go to homepage">
+            <svg width="148" height="20" viewBox="0 0 147.827 19.9997" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <g clip-path="url(#footer-logo-clip)">
+                <path d="M142.629 7.89212C143.086 7.88841 143.528 8.05831 143.865 8.36755C144.34 8.84298 144.499 9.60366 144.499 10.713V10.9983H140.061C140.061 9.88892 140.347 9.00145 140.822 8.52603C141.297 8.0506 141.773 7.89212 142.597 7.89212M146.02 6.87787C145.574 6.40571 145.032 6.03423 144.431 5.78826C143.83 5.5423 143.183 5.42751 142.534 5.45159C138.762 5.45159 136.099 8.27246 136.099 12.3612C136.099 16.4498 138.92 19.9046 142.692 19.9046C145.45 19.9046 147.763 18.1931 147.763 18.1931L146.717 16.0061C145.763 16.774 144.583 17.2081 143.358 17.2422C142.407 17.2422 141.646 16.7668 141.012 16.2914C140.378 15.8159 140.061 14.5798 140.061 13.3437H147.732C147.795 13.2803 148.27 9.09654 146.02 6.84618M64.3731 7.86042C64.8304 7.85672 65.2722 8.02662 65.6092 8.33585C66.0846 8.81128 66.2431 9.57197 66.2431 10.6813V10.9666H61.8058C61.8058 9.85723 62.091 8.96976 62.5665 8.49433C63.0419 8.0189 63.5807 7.86042 64.3414 7.86042M67.7645 6.84618C67.3183 6.37401 66.7765 6.00253 66.1752 5.75657C65.574 5.5106 64.9272 5.39582 64.278 5.41989C60.5063 5.41989 57.8439 8.24077 57.8439 12.3295C57.8439 16.4181 60.6647 19.8729 64.4365 19.8729C67.194 19.8729 69.4443 18.1614 69.4443 18.1614L68.3984 15.9744C67.4435 16.7423 66.2635 17.1764 65.0387 17.2105C64.0878 17.2105 63.3271 16.7351 62.6932 16.2597C62.0593 15.7842 61.7424 14.5481 61.7424 13.312H69.4126C69.5394 13.2486 70.0148 9.06484 67.7645 6.81448M92.772 3.04275C96.2585 3.04275 97.3679 6.6877 97.3679 9.63536C97.3679 11.3469 97.0192 16.7034 92.772 16.7034C88.5249 16.7034 88.0811 11.4103 88.0811 9.69875C88.0811 6.6877 89.3806 3.10614 92.8037 3.10614M92.8037 0.0950858C87.9227 0.0950858 84.1509 4.21547 84.1509 9.63536C84.1509 15.5941 87.7959 19.9046 92.8037 19.9046C97.8116 19.9046 101.393 15.6575 101.393 9.66705C101.457 4.24716 97.6848 0.126781 92.772 0.126781M132.645 16.9253C130.458 16.9253 129 15.0869 129 12.3928C129 9.69875 130.901 8.14568 132.645 8.14568C133.46 8.17725 134.26 8.38256 134.99 8.74789L134.229 5.61006C133.611 5.43105 132.971 5.33512 132.328 5.3248C127.795 5.3248 125.26 8.96976 125.26 12.5196C125.26 14.9919 126.781 19.7145 132.169 19.7145C133.478 19.6612 134.743 19.2321 135.814 18.4783L135.054 16.1329C135.054 16.2597 134.103 16.957 132.645 16.957M77.2097 17.4958C76.2588 17.4958 75.7834 16.3865 75.7834 14.5481V8.17738H78.9212L78.2873 5.86362H75.8151V2.72579H72.1701V5.86362H70.1733L70.6487 8.17738H72.1701V15.3722C72.1701 18.3199 73.4062 19.968 76.132 19.968C77.3571 19.96 78.5589 19.6322 79.6185 19.0172L78.9846 16.8302C78.9846 16.7668 78.2239 17.4324 77.2731 17.4324M46.1483 13.312C46.1483 13.0268 42.3766 0 42.3766 0H37.6223L35.7206 19.6194H39.3655L40.4749 5.92701H40.6016L44.4368 19.6194H47.9232L51.695 5.92701H51.8851L52.9311 19.6194H56.576L54.8645 0H49.9834C49.92 0 46.2751 13.0268 46.0849 13.312M112.55 5.76854H107.827V4.6592C107.827 3.13783 108.937 2.75749 109.254 2.75749C109.513 2.69956 109.782 2.69498 110.044 2.74401C110.305 2.79305 110.554 2.89468 110.775 3.04275L110.141 0.380343C109.643 0.256541 109.133 0.192697 108.62 0.190172C106.623 0.190172 104.373 1.77493 104.373 5.07124V5.70515H102.344L102.819 8.0189H104.341V19.3341H107.827V8.0506H112.36V19.3658H116.005V8.0506H119.776V19.3658H123.421V5.73684H116.1V4.62751C116.1 3.10614 117.146 2.72579 117.526 2.72579C118.071 2.61587 118.638 2.71787 119.111 3.01105L118.477 0.348648C117.958 0.221615 117.426 0.157761 116.892 0.158476C114.895 0.158476 112.645 1.74324 112.645 5.03955V5.67345H112.582L112.55 5.76854Z" fill="white"/>
+                <path d="M6.0538 6.7194C4.05699 7.19483 1.9968 6.52922 -0.0316953 5.89532V4.6592C1.00724 4.91362 2.08956 4.93527 3.13783 4.72259C7.385 3.77174 10.6813 -1.9968 16.9253 0.760686C23.1692 3.51817 29.54 0.982553 30.3641 0.697296V3.51817C27.7017 4.12038 23.5179 4.46903 19.6828 2.82088C13.5656 1.52986e-08 10.2059 5.83193 5.9904 6.7194M11.3469 10.4277C15.5307 9.47688 18.8904 3.70835 25.071 6.46583C26.7537 7.16155 28.5449 7.55841 30.3641 7.63856V5.51498C27.9552 5.73684 25.0076 5.64176 22.2818 4.40564C16.0378 1.67985 12.7415 7.41669 8.55772 8.39925C5.67345 9.03315 2.94766 7.51178 -0.0633905 6.6877V8.27246C4.18377 8.46264 7.60686 11.2201 11.3152 10.396M15.6892 14.1044C19.8729 13.1535 23.2326 7.385 29.4766 10.1108C29.7403 10.2515 30.0161 10.3682 30.3007 10.4594V9.09654C29.0183 8.93984 27.7676 8.58708 26.5923 8.0506C20.4118 5.3248 17.0521 11.125 12.8683 12.0442C8.6845 12.9634 5.03955 9.50858 0.0633905 10.0474H-0.126781V12.9951C0.809233 12.4941 1.83029 12.1716 2.88427 12.0442C7.82873 11.442 11.6005 14.9919 15.6892 14.1044ZM17.3373 15.4039C13.2169 16.3548 9.50858 12.8049 4.46903 13.3437C2.88427 13.5339 1.3312 14.2946 -0.126781 15.2454V19.6194C1.04594 18.2565 3.58156 15.9744 7.25822 15.6575C12.2661 15.2454 15.9744 18.6685 20.1265 17.7177C23.3594 17.0204 26.2437 13.2486 30.3324 12.9951V11.0933C24.6272 9.15993 21.2992 14.5164 17.369 15.4039" fill="#B9D532"/>
+              </g>
+              <defs><clipPath id="footer-logo-clip"><rect width="147.827" height="19.9997" fill="white"/></clipPath></defs>
+            </svg>
+          </a>
+        </div>
+        <nav aria-label="Footer navigation" class="footer-nav">
+          <ul class="footer-nav-list" role="list">
+            <li><a href="#">Terms and conditions</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Accessibility statement</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="site-footer-lower">
+      <div class="footer-lower-inner">
+        <a href="#" aria-label="Met Office on X (Twitter)" class="social-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="#8e8e8e" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.962l4.263 5.636zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+        <a href="#" aria-label="Met Office on YouTube" class="social-link"><svg width="22" height="20" viewBox="0 0 24 24" fill="#8e8e8e" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+        <a href="#" aria-label="Met Office on Facebook" class="social-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="#8e8e8e" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+        <a href="#" aria-label="Met Office on TikTok" class="social-link"><svg width="18" height="20" viewBox="0 0 24 24" fill="#8e8e8e" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.23 8.23 0 0 0 4.83 1.55V6.79a4.85 4.85 0 0 1-1.06-.1z"/></svg></a>
+        <a href="#" aria-label="Met Office on Instagram" class="social-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="#8e8e8e" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg></a>
+        <a href="#" aria-label="Met Office on LinkedIn" class="social-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="#8e8e8e" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
